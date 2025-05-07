@@ -1,0 +1,7 @@
+person
+train
+sign
+lights-red
+lights-yellow
+lights-green
+
