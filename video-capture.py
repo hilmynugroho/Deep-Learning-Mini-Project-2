@@ -1,12 +1,12 @@
 import cv2 as cv
 import os
 
-video_path = "C:\Users\ideapad\Downloads\train_video.mp4"
-output_dir = 'dataset/images/train'
+video_path = "C:/Users/ideapad/Downloads/train_video720.mp4"
+output_dir = 'dataset/images/raw'
 os.makedirs(output_dir, exist_ok=True)
 
 cap = cv.VideoCapture(video_path)
-frame_rate = 1  # 1 frame per second
+frame_rate = 20  
 
 fps = int(cap.get(cv.CAP_PROP_FPS))
 interval = fps * frame_rate

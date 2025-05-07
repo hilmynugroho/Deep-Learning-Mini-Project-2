@@ -1,0 +1,6 @@
+path: C:/Users/ideapad/Deep-Learning-Mini-Project-2/dataset
+train: images/train
+val: images/val
+
+nc: 5
+names: ['person', 'train', 'motorbike', 'sign', 'lights']
